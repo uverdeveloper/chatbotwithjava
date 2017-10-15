@@ -165,7 +165,7 @@ public class Main {
 		        public void actionPerformed(ActionEvent event) {
 		            username = usernameChooser.getText();
 		            if (username.length() < 1) {
-		                System.out.println("Nome inválido");
+		                System.out.println("Nome invï¿½lido");
 		            } else {
 		                preFrame.setVisible(false);
 		                display();

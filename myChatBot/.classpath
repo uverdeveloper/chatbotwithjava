@@ -2,8 +2,8 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Users/356742/.git/Chatterbean_00.008/bsh.jar"/>
-	<classpathentry kind="lib" path="C:/Users/356742/.git/Chatterbean_00.008/junit.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_144/jre/lib/ext/jfxrt.jar"/>
+	<classpathentry kind="lib" path="/home/uverlanio/Downloads/chatterbean.src.00.008/bsh.jar"/>
+	<classpathentry kind="lib" path="/home/uverlanio/Downloads/chatterbean.src.00.008/junit.jar"/>
+	<classpathentry kind="lib" path="/lib/jdk-oracle/jre/lib/ext/jfxrt.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
