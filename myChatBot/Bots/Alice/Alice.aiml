@@ -2,28 +2,28 @@
 
 <aiml>
   <category>
+    <pattern>Bom dia</pattern>
+    <template>Bom dia</template>
+  </category>
+  <category>
+    <pattern>Good morning</pattern>
+    <template>Good morning</template>
+  </category>
+  <category>
     <pattern>QUAL E O SEU NOME</pattern>
-    <template>Oi, eu sou a Jaala</template>
+    <template>Oi, eu sou o Eduardo</template>
   </category>
   <category>
     <pattern>QUAL O SEU NOME</pattern>
-    <template>Oi, eu sou a Jaala</template>
+    <template>Oi, eu sou o Eduardo</template>
   </category>
   <category>
   	<pattern>QUANTOS ANOS VOCE TEM</pattern>
   	<template>Eu tenho 29 anos.</template>
   </category>
-   <category>
-  	<pattern>VOCE TRABALHA COM O QUE</pattern>
-  	<template>Trabalha no posto de saÃºde Akira em TaboÃ£o da Serra</template>
-  </category>
-  <category>
-  	<pattern>VOCE TRABALHA EM QUAL EMPRESA</pattern>
-  	<template>Prefeitura de TaboÃ£o da Seera</template>
-  </category>
   <category>
   	<pattern>QUAL O NOME DA EMPRESA QUE VOCE TRABALHA</pattern>
-  	<template>Na Liq.</template>
+  	<template>Na A5 Solutions.</template>
   </category>
   <category>
     <pattern>WHAT DID I JUST SAY</pattern>
@@ -52,6 +52,18 @@
   <category>
     <pattern>DO YOU SEE THE *</pattern>
     <template>Yes, I see the <star/>.</template>
+  </category>
+  <category>
+    <pattern>Você conhece o Vinicius</pattern>
+    <template>Claro que não.</template>
+  </category>
+  <category>
+    <pattern>E o Tiburcio?</pattern>
+    <template>Certeza que não.</template>
+  </category>
+  <category>
+    <pattern>O Uver e lindo?</pattern>
+    <template>Absolutamente.</template>
   </category>
   <category>
     <pattern>DO YOU SEE THE * IN MY EYES</pattern>
@@ -121,6 +133,6 @@
   </category>
   <category>
     <pattern>*</pattern>
-    <template>Eu nï¿½o consegui entender.</template>
+    <template>Eu não te consegui entender.</template>
   </category>
 </aiml>

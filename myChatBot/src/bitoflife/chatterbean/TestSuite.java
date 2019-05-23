@@ -15,7 +15,9 @@ You should have received a copy of the GNU General Public License along with Cha
 package bitoflife.chatterbean;
 
 import junit.framework.Test;
-import junit.swingui.TestRunner;
+import junit.framework.TestCase;
+import junit.textui.TestRunner;
+
 
 public class TestSuite extends junit.framework.TestSuite
 {
@@ -82,7 +84,7 @@ public class TestSuite extends junit.framework.TestSuite
     {
       // Add only the given tests to the suite.
       for (String name : testNames) 
-        suite.addTestSuite(Class.forName(name));
+        suite.addTestSuite( (Class<? extends TestCase>) Class.forName(name));
     }
     catch (ClassNotFoundException e)
     {

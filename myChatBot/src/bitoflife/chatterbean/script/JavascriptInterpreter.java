@@ -15,7 +15,9 @@ You should have received a copy of the GNU General Public License along with Cha
 package bitoflife.chatterbean.script;
 
 import java.applet.Applet;
+
 import netscape.javascript.JSObject;
+
 
 /**
 Interpreter for Javascript scripts.

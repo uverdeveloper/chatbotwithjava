@@ -17,6 +17,7 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
+import javax.swing.SwingConstants;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 
@@ -25,7 +26,7 @@ import bitoflife.chatterbean.AliceBotMother;
 
 public class Main {
 
-	String      appName     = "Projeto Chatbot Aurea";
+	String      appName     = "Projeto Chatbot Eduardo";
     Main     	mainGUI;
     JFrame      newFrame    = new JFrame(appName);
     JButton     sendMessage;
@@ -80,6 +81,7 @@ public class Main {
 		    }
 
 		    public void display() {
+		    	
 		        JPanel mainPanel = new JPanel();
 		        mainPanel.setLayout(new BorderLayout());
 
@@ -146,7 +148,7 @@ public class Main {
 		        			 String ask = messageBox.getText();				
 		        			 String str = mybot.respond(ask);
 		        			 
-		        			 chatBox.append(" " + "Aurea" + ":  " + str
+		        			 chatBox.append(" " + "Eduardo" + ":  " + str
 		                        + "\n");
 		        			 messageBox.setText("");
 		        
@@ -165,7 +167,7 @@ public class Main {
 		        public void actionPerformed(ActionEvent event) {
 		            username = usernameChooser.getText();
 		            if (username.length() < 1) {
-		                System.out.println("Nome inv�lido");
+		                System.out.println("Nome invalido");
 		            } else {
 		                preFrame.setVisible(false);
 		                display();
